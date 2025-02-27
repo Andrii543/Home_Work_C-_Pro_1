@@ -21,7 +21,7 @@ namespace Home_Work_Class_C__Pro
         //Метод ділення
         public double Division(int num1, int num2)
         {
-            if (num1 == 0 && num2 == 0)
+            if (num1 == 0 || num2 == 0)
             {
                 throw new DivideByZeroException("Ділення на 0 не можливе");
             }
